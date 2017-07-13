@@ -1,9 +1,5 @@
-subject = ['physics', 'chemistry', 'biology', 'math', 'english']
+num = 9
 
-count = 0
-
-for subject in subjects:
-    if (count % 2 == 0):
-        print(subject)
-    
-    count = count + 1
+print(num % 3)
+print(num % 4)
+print(num % 5)

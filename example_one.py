@@ -12,9 +12,8 @@ print(num_one * 2)
 
 print(num_one / 2)
 
-print(num_one + 3 * 2)
-
+#print(num_one + 3 * 2)
 
 #print(num_one // 2)
 
-#print(num
+#print(num_one // 3)

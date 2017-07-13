@@ -1,5 +1,10 @@
-num = 9
+subject = ['physics', 'chemistry', 'biology', 'math', 'english']
 
-print(num % 3)
-print(num % 4)
-print(num % 5)
+count = 1
+
+for subject in subjects:
+    if (count < 3):
+        print(subject)
+    
+    count = count + 1
+
