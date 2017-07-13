@@ -1,4 +1,4 @@
-subject = ['physics', 'chemistry', 'biology', 'math', 'english']
+subjects = ['physics', 'chemistry', 'biology', 'math', 'english']
 
 count = 1
 
