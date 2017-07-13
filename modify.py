@@ -1,11 +1,7 @@
 input_filename = 'poem.txt'
 output_filename = 'output.txt'
 
-# store contents of input file in a list named "original_file_contents"
-# This is slightly different then the last assignment. Each line in the file is being
-# stored as an element in a list, not as one large string.
-# Notice when the list is printed that there is an extra '\n' character at the end of each line
-# this indicates a new line when the output is written to a file.
+# store contents of input file in a list named "lines"
 with open(input_filename, 'r') as f:
     lines = f.readlines()
 
@@ -45,8 +41,8 @@ target = open(output_filename, 'w')
 # These two lines will write a copy of the poem to output_filename.
 # You can make modifications in the loop or outside the loop, depending on what is required.
 
- for line in lines:
-    target.write(line)
+for line in lines:
+   target.write(line)
 
 #-----------------------------
 #
